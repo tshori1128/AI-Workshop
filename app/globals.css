@@ -1,8 +1,8 @@
 :root {
-  --color-accent: #05505c;
+  --color-accent: #d6336c;
   --color-text: #1a1a1a;
   --color-bg: #ffffff;
-  --color-bg-alt: #f4f8f8;
+  --color-bg-alt: #fdf0f5;
   --max-width: 720px;
 }
 
@@ -69,7 +69,7 @@ main {
 
 .section {
   padding: 2rem 0;
-  border-bottom: 1px solid #e0e6e6;
+  border-bottom: 1px solid #f6dbe5;
 }
 
 .section:last-of-type {
