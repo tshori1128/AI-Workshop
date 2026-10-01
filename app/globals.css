@@ -173,3 +173,58 @@ button,
 .error {
   color: #b00020;
 }
+
+/* Tasks */
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.task-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.task-form input,
+.task-form select {
+  padding: 0.4rem;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f6dbe5;
+}
+
+.task form {
+  margin: 0;
+}
+
+.task.done .task-title {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.skill-label {
+  margin-left: auto;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: var(--color-bg-alt);
+  color: var(--color-accent);
+  font-size: 0.85rem;
+}
