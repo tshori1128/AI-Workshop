@@ -228,3 +228,29 @@ button,
   color: var(--color-accent);
   font-size: 0.85rem;
 }
+
+/* Lists */
+
+.list-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.list-link {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.list-link.current {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.new-list summary {
+  cursor: pointer;
+  color: var(--color-accent);
+}
